@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cultural Attractions in Addis Ababa</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" 
+    crossorigin="anonymous">
+
+    <style>
+      a{
+        color: rgb(165, 114, 42);
+      }
+      a:visited{
+        color: rgb(165, 114, 42);
+      }
+    </style>
+
+
+</head>
+<body>
+    <header>
+        <nav class = "navbar navbar-expand-md navbar-light">
+          <a href = "HomePage.html" class = "navbar-brand"> DISCOVER-R-US</a>
+          <button
+          class = "navbar-toggler"
+          type = "button"
+          data-bs-toggle="collapse"
+          data-bs-target="#toggleMobileMenu"
+          aria-controls="toggleMobileMenu"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+          >
+          <span class = "navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id = "toggleMobileMenu">
+        <ul class = "navbar-nav ms-auto">
+            <li>
+              <a class = "nav-link" href = "museums.html" title = "Museums and Cultural Attractions"> Museums and Cultural Attractions </a>
+            </li>
+                <li>
+                  <a class = "nav-link" href = "restaurants.html" title = "Affordable Restaurants"> Affordable Restaurants</a>
+                </li>
+                    <li>
+                      <a class = "nav-link" href = "hotels.html" title = "Hotels, Inns and Motels"> Hotels, Inns and Motels </a>
+                    </li>
+                        <li>
+                            <a class = "nav-link" href = "culturalattractions.html" title = "Cultural Holidays and Tourist Attractions"> Cultural Holidays and Tourist Attractions </a>
+                          </li>
+                            <li>
+                               <a class = "nav-link" href = "#form" title = "Subscribe"> SUBSCRIBE </a></li>
+        </ul>
+      </div>
+    </nav>
+      </header>
+    <h1 style = "font-size: large;"> ALL THE INFORMATION ABOUT ADDIS ABABA IN ONE PLACE!</h1>
+    <section class = "main_body">
+    <p> It's no news that Ethiopia is a country brimming with culture. Addis Ababa, being the capital city of Ethiopia, is no exception to this.
+        Below are our favorite cultural holidays and tourist attractions in no particular order!
+    </p>
+
+    <h2> Cultural Holidays </h2>
+    
+        <ul> 
+        <li> Nations, Nationalities and People's Day</li>
+        <p> First on this list is the Ethiopian Nations and Nationalities day, celebrated on December 9 each year. This holiday is celebrated by everyone regardless of age, religion, or political association. 
+            Different people dress up as members of various ethnic groups, and perform dances, share food, and in general have a good time. This holiday is a real treat to the senses! </p>
+        <li> Irrechaa </li>
+        <p> Even though this holiday is mainly celebrated by the Oromo people, many people from different ethnicities partake in this rich tradition.
+            It is celebrated at <span lang = "am"> መስቀል አደባባይ</span> (Meskel Adebabay) and it's a rich experience for everyone!        </p>
+        </ul>
+        <li> Ashendaye </li>
+        <p> Predominantly celebrated by the Amhara and Tigray ethnic groups, this beautiful holiday has so much to offer to everyone.
+            This is also celebrated in Addis Ababa, and anyone can take part in it
+            Fun fact: This is one of the few holidays to be celebrated only by women!
+        </p>
+        <p> And speaking of culture in Ethiopia, here is a remix of a popular song titled "Addis Ababa"! </p>
+        <audio controls autoplay>
+            <source src = "audios/audio_MWQ4z3iV.m4a" type = "audio/m4a"> 
+            Sorry, your browser does not support the audio element. Here's a link to the video on YouTube instead!
+            <a href = "https://youtu.be/2OMK4mFZ96E"> Link </a>
+        </audio>
+    <h3> Tourist Attractions</h3>
+
+   
+        <ul>
+        <li>Friendship park </li>
+        <p>Another popular tourist attraction in Addis Ababa is friendship park.  This park is one of the most popular parks in Ethiopia, and it just recently got built. It is located at 4 kilo, and houses the Science Institution of Addis Ababa.
+            With a very cheap entrance fee of just 20 Birr, this park is not only ravishingly beautiful, but very affordable too! </p>
+        <li> Entoto park </li>
+        <p>Are you an outdoors type of person? Do you like hiking, mountain climbing or pretty much any other physical activity> Well, if so, Entoto park is just the place for you! With different activities to engage in,lots tourist love their time at this particular park. Whether you're looking for museums, hiking and camping ground with your friends or just hanging out by yourself , we promise you will not be disappointed.</p> 
+        <li>Unity park</li>
+        <p>This park used to and is still is inhibited by the prime minister of Ethiopia. Offering amazing views, rare animals, and amazing Ethiopian cuisine, this park is most definitely our favorite on this list!
+        With realistic looking statues of ancient kings of Ethiopia, it is a beautiful place to visit. </p>
+        </ul>
+
+
+    
+</section>
+
+<footer>
+        
+  <p> Want more from our blog?</p>
+  <p> SUBSCRIBE TO OUR NEWSLETTER! </p>
+  <form id = "form" novalidate>
+      <div class = "col-3">
+  <label for = "email" class = "form-label"> Email </label>
+   <input type = "email" id = "email" placeholder = "someone@example.com" name = "email" class = "form-control" required> <br>
+   <div class = "error"> </div>
+   </div>
+   <div class = "col-3">
+      <label for = "password" class = "form-label"> Password </label>
+     <input type = "password" id = "password" name = "password" required class = "form-control">
+     <div class = "error"> </div>
+     </div>
+     <button id = "submit" type = "submit" class = "btn btn-secondary">Subscribe</button>
+  </form>
+  <form> 
+    <label for = "comments" class = "form-label"> Comment: </label>
+    <input id = "comments" class = "form-control">
+      <button type = "submit" id = "submit" class = "btn btn-secondary"> Submit </button>
+  </form>
+  <script>
+    const form = document.querySelector("form")
+
+    form.addEventListener("submit", e => {
+      if(!form.checkValidity()){
+        e.preventDefault()
+      }
+
+      form.classList.add("was-validated")
+    })
+  </script>
+  <p>© 2022 DISCOVER-R-US</p>
+</footer> 
+
+    
+</body>
+</html>

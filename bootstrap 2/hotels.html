@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotels, Inns and Motels in Addis Ababa</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" 
+    crossorigin="anonymous">
+
+    <style>
+      a{
+        color: rgb(165, 114, 42);
+      }
+      a:visited{
+        color: rgb(165, 114, 42);
+      }
+    </style>
+
+
+
+</head>
+<body>
+    <header>
+        <nav class = "navbar navbar-expand-md navbar-light">
+          <a href = "HomePage.html" class = "navbar-brand"> DISCOVER-R-US</a>
+          <button
+          class = "navbar-toggler"
+          type = "button"
+          data-bs-toggle="collapse"
+          data-bs-target="#toggleMobileMenu"
+          aria-controls="toggleMobileMenu"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+          >
+          <span class = "navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id = "toggleMobileMenu">
+        <ul class = "navbar-nav ms-auto">
+            <li>
+              <a class = "nav-link" href = "about.html" title = "About Page"> About </a>
+            </li>
+                <li>
+                  <a class = "nav-link" href = "restaurants.html" title = "Affordable Restaurants"> Affordable Restaurants</a>
+                </li>
+                    <li>
+                      <a class = "nav-link" href = "museums.html" title = "Museums and Souvenir Shops"> Hotels, Inns and Motels </a>
+                    </li>
+                        <li>
+                            <a class = "nav-link" href = "culturalattractions.html" title = "Cultural Holidays and Tourist Attractions"> Cultural Holidays and Tourist Attractions </a>
+                          </li>
+                          <li>
+                            <a class = "nav-link" href = "contact.html" title =  "Contact"> Contact </a>
+                          </li>
+                            <li>
+                               <a class = "nav-link" href = "#form" title = "Subscribe"> SUBSCRIBE </a></li>
+        </ul>
+      </div>
+    </nav>
+      </header>
+    
+    <h1> Hotels, Inns and Motels in Addis Ababa </h1>
+    <section>
+    <p> Addis Ababa is a metropolitan city. Being home to the African Union means that this city needs to uphold some standards, and the hotels found in Addis Ababa do not disappoint at all.
+        Here's some of our favorite hotels to stay, as well as some inns and motels.
+    </p>
+    <ul></ul>
+    <div class="container">
+      <div class="row">
+        <div class="col-6">
+          <section class = "vid"> <video id = "video1" width = "100%" autoplay muted>
+            <source src = "videos/sheraton.mp4" type = "video/mp4">
+            Sorry, your browser does not support video mode. Here's the link to Youtube video instead!
+            <a href = "https://youtu.be/PvGYtdg0aeI"> Link </a>
+        </video>
+        </div>
+        <div class="col-6">
+          <li> Sheraton Addis Ababa </li>
+          <div  class = "par"><p> This hotel is one of the most beautiful hotels in Addis Ababa. 
+              It's popular for hosting many different events, and this is where diplomats who come to Addis Ababa usually stay.
+              It helps that it's a popular franchise! If you think this might be too expensive for you though, read ahead for more affordable hotels!
+          </p> </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-6">
+          <li> Hilton Addis Ababa </li>
+        <p> This is another popular franchise that is found in Addis Ababa. It is located in 4 kilo, and is very close to the different parks found in this place.
+            The neighborhood is also very pretty and the atmosphere is quaint. The rooms are excellent quality, and with many different activities to do, this is an amazing place to spend your vacation! 
+        </p> 
+        </div>
+        <div class="col-6">
+          <img src = "images/IMG_3823.jpg" alt = "Hilton Hotel room in Addis Ababa" style = "width: 100%;">
+        </div>
+      </div>
+    </div>
+        <li> Haile Resort </li>
+        <p> This hotel is one of our favorites because not only does it have amazing views and excellent customer service, but it is also very affordable.
+            With prices starting from 7000 ETB, there is something to do for everyone! The food here is also immaculate.
+        </p>
+  
+    </ul>
+        <h2> Well what about inns? Here's some of our favorites!</h2>
+        <ul>
+        <li>Elegy inn </li>
+        <p>Providing an astonishing view of the city, this inn has no booking fees, great rates, secure booking.    
+        Elegy  offers pet-friendly accommodations. The guest house has an outdoor pool and a garden, and guests can enjoy a drink at the bar for 24 hours.</p>
+
+        <li>Fruin inn</li> 
+        <p>This inn is considered one of the best inns in the city.
+        Fruin inn features a garden and views of the garden.
+        Offering an outdoor pool and a tropical garden with nature watching opportunities, its a very comfortable place for you to stay!</p>
+
+        <li>Tseday inn </li>
+        <p>The traditional colonial-style inn features colonial-style architecture, enhanced by Addis Ababa's natural beauty. It is a 3-minute walk from Ethiopian national museum  and the zoo. </p>
+</ul></section>
+
+<footer>
+        
+  <p> Want more from our blog?</p>
+  <p> SUBSCRIBE TO OUR NEWSLETTER! </p>
+  <form id = "form" novalidate>
+      <div class = "col-3">
+  <label for = "email" class = "form-label"> Email </label>
+   <input type = "email" id = "email" placeholder = "someone@example.com" name = "email" class = "form-control" required> <br>
+   <div class = "error"> </div>
+   </div>
+   <div class = "col-3">
+      <label for = "password" class = "form-label"> Password </label>
+     <input type = "password" id = "password" name = "password" required class = "form-control">
+     <div class = "error"> </div>
+     </div>
+     <button id = "submit" type = "submit" class = "btn btn-secondary">Subscribe</button>
+  </form>
+  <form> 
+    <label for = "comments" class = "form-label"> Comment: </label>
+    <input id = "comments" class = "form-control">
+      <button type = "submit" id = "submit" class = "btn btn-secondary"> Submit </button>
+  </form>
+  <script>
+    const form = document.querySelector("form")
+
+    form.addEventListener("submit", e => {
+      if(!form.checkValidity()){
+        e.preventDefault()
+      }
+
+      form.classList.add("was-validated")
+    })
+  </script>
+  <p>© 2022 DISCOVER-R-US</p>
+</footer>
+
+</body>
+</html>

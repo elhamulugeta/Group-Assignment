@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Affordable Restaurants</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" 
+    crossorigin="anonymous">
+
+    <style>
+      a{
+        color: rgb(165, 114, 42);
+      }
+      a:visited{
+        color: rgb(165, 114, 42);
+      }
+    </style>
+</head>
+<body>
+  <header>
+    <nav class = "navbar navbar-expand-md navbar-light">
+      <a href = "HomePage.html" class = "navbar-brand"> DISCOVER-R-US</a>
+      <button
+      class = "navbar-toggler"
+      type = "button"
+      data-bs-toggle="collapse"
+      data-bs-target="#toggleMobileMenu"
+      aria-controls="toggleMobileMenu"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+      >
+      <span class = "navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id = "toggleMobileMenu">
+    <ul class = "navbar-nav ms-auto">
+        <li>
+          <a class = "nav-link" href = "museums.html" title = "Museums and Cultural Attractions"> Museums and Cultural Attractions </a>
+        </li>
+            <li>
+              <a class = "nav-link" href = "restaurants.html" title = "Affordable Restaurants"> Affordable Restaurants</a>
+            </li>
+                <li>
+                  <a class = "nav-link" href = "hotels.html" title = "Hotels, Inns and Motels"> Hotels, Inns and Motels </a>
+                </li>
+                    <li>
+                        <a class = "nav-link" href = "culturalattractions.html" title = "Cultural Holidays and Tourist Attractions"> Cultural Holidays and Tourist Attractions </a>
+                      </li>
+                        <li>
+                           <a class = "nav-link" href = "#form" title = "Subscribe"> SUBSCRIBE </a></li>
+    </ul>
+  </div>
+</nav>
+  </header>
+    <h1> Affordable Restaurants </h1>
+    <section class = "main_body">
+<ul>
+<li>Kategna traditional restaurant </li>
+
+<p>Serving many dishes from a single platter, friends, families, and communities come together to share the array of meats, stews, and vegetables that are carefully spread out on a slab of injera.
+     Using their hands, each person tears a piece off from the edges, scooping up whatever stew or piece of meat is nearby. Could be Doro Wot, with its spiced butter and savory thickness. Or Misir Wot, with its tender, earthy lentils. Or, ahhhh, Sega Wot, with its rich, saucy pieces of beef.
+     This registrant can never disappoint! </p>
+    <p> Menu:</p>
+    <div class = "table">
+      <table class = "table table-bordered">
+        <tr>
+          <th class = "col-5">FOOD</th>
+          <th class = "col-5">PRICE</th>
+        </tr>
+        <tr>
+          <td> INJERA FIRFIR  </td>
+          <td>500 ETB</td>
+        </tr>
+        <tr>
+          <td>FASTING KATEGNA SPECIAL</td>
+          <td>600 ETB</td>
+        </tr>
+      </table>
+
+      <form action = "http://localhost:3000/menuItems" method = "post">
+        <label for="food-name"> Food Name: </label>
+        <input type="text" id="food-name" name = "food-name">
+        <br> <br>
+        <label for="price"> Price: </label>
+        <input type = "text" id = "price" name = "price">
+        <br><br>
+        <input type="submit" value = "Submit">
+      </form>
+
+      <form action = "http://localhost:3000/menuItems" method="delete">
+        <input type="submit" value = "Submit">
+      </form>
+    </div>
+
+
+<li>Savor</li>
+
+<p>Savor is an authentic French exuding the "air of France".  At Savor ,you will enjoy modern and traditional French cuisine prepared to perfection by our chef. The amicable, attentive and prompt service ensures your experience is memorable. And, most importantly, the 'French' ambience embellishes your experience with the music of Edith Piaf and Charles Aznavour playing in the background. Come to savor French Restaurant and enjoy Paris... Bon appetit!</p>
+<p> Menu:</p>
+<table class = "table table-bordered">
+    <tr>
+      <th class = "col-5">FOOD</th>
+      <th class = "col-5">PRICE</th>
+    </tr>
+    <tr>
+      <td> GORED GORED   </td>
+      <td>700 ETB</td>
+    </tr>
+    <tr>
+      <td>CHECHEBSA WITH EGG</td>
+      <td> 100 ETB</td>
+    </tr>
+  </table>
+
+<li>Bella pizzeria </li>
+<p>Bella pizzeria specializes in elite handmade Italian food.
+This pizzeria has been rated as one of the best Italian restaurants on multiple occasions.
+Reach out on their website today and book your next reservation at Bella  pizzeria, and enjoy!</p>
+<table class = "table table-bordered">
+    <tr>
+      <th class = "col-5">FOOD</th>
+      <th class = "col-5">PRICE</th>
+    </tr>
+    <tr>
+      <td> KITFO </td>
+      <td>700 ETB</td>
+    </tr>
+    <tr>
+      <td>GOMEN BESIGA</td>
+      <td> 1100 ETB</td>
+    </tr>
+  </table>
+</ul>   
+ </section>
+
+ <footer>
+        
+  <p> Want more from our blog?</p>
+  <p> SUBSCRIBE TO OUR NEWSLETTER! </p>
+  <form id = "form" novalidate>
+      <div class = "col-3">
+  <label for = "email" class = "form-label"> Email </label>
+   <input type = "email" id = "email" placeholder = "someone@example.com" name = "email" class = "form-control" required> <br>
+   
+   </div>
+   <div class = "col-3">
+      <label for = "password" class = "form-label"> Password </label>
+     <input type = "password" id = "password" name = "password" required class = "form-control">
+     <div class = "error"> </div>
+     </div>
+     <button id = "submit" type = "submit" class = "btn btn-secondary">Subscribe</button>
+  </form>
+  <form> 
+    <label for = "comments" class = "form-label"> Comment: </label>
+    <input id = "comments" class = "form-control">
+      <button type = "submit" id = "submit" class = "btn btn-secondary"> Submit </button>
+  </form>
+  <script>
+    const form = document.querySelector("form")
+
+    form.addEventListener("submit", e => {
+      if(!form.checkValidity()){
+        e.preventDefault()
+      }
+
+      form.classList.add("was-validated")
+    })
+  </script>
+  <p>© 2022 DISCOVER-R-US</p>
+</footer>
+    
+</body>
+</html>

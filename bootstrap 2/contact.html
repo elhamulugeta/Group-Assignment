@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Contact</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" 
+    crossorigin="anonymous">
+
+    <style>
+      a{
+        color: rgb(165, 114, 42);
+      }
+      a:visited{
+        color: rgb(165, 114, 42);
+      }
+    </style>
+
+
+</head>
+<body>
+    <header>
+        <nav class = "navbar navbar-expand-md navbar-light">
+          <a href = "HomePage.html" class = "navbar-brand"> DISCOVER-R-US</a>
+          <button
+          class = "navbar-toggler"
+          type = "button"
+          data-bs-toggle="collapse"
+          data-bs-target="#toggleMobileMenu"
+          aria-controls="toggleMobileMenu"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+          >
+          <span class = "navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id = "toggleMobileMenu">
+        <ul class = "navbar-nav ms-auto">
+            <li>
+              <a class = "nav-link" href = "museums.html" title = "Museums and Cultural Attractions"> Museums and Cultural Attractions </a>
+            </li>
+                <li>
+                  <a class = "nav-link" href = "restaurants.html" title = "Affordable Restaurants"> Affordable Restaurants</a>
+                </li>
+                    <li>
+                      <a class = "nav-link" href = "hotels.html" title = "Hotels, Inns and Motels"> Hotels, Inns and Motels </a>
+                    </li>
+                        <li>
+                            <a class = "nav-link" href = "culturalattractions.html" title = "Cultural Holidays and Tourist Attractions"> Cultural Holidays and Tourist Attractions </a>
+                          </li>
+                            <li>
+                               <a class = "nav-link" href = "#form" title = "Subscribe"> SUBSCRIBE </a></li>
+        </ul>
+      </div>
+    </nav>
+      </header>
+
+    <h1 style="font-weight: lighter;"> ALL THE INFORMATION ABOUT<br>
+         ADDIS ABABA<br>
+          IN ONE PLACE!</h1>
+    <p> FIND/CONTACT US ON:</p>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-4">
+          <p><a href = "https://www.instagram.com/">
+            <img src = "images/instagram.jpg" alt = "instagram icon" style = "width: 90%;"><p> Instagram</p>
+        </a></p>
+        </div>
+        <div class="col-4">
+          <p class = "twitter"><a href = "https://twitter.com/">
+            <img src = "images/twitter.jpg" alt = "twitter icon" style = "width: 90%;;"><p>Twitter</p>
+        </a></p>
+        </div>
+        <div class="col-4">
+          <p class = "facebook"><a href = "https://www.facebook.com/">
+            <img src = "images/facebook.png" alt = "facebook icon" style = "width: 100%;"><p>Facebook</p>
+        </a></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-7">
+          Or send us an email on: <br>
+          contact@discover.com
+        </div>
+        <div class="col-4">
+          Or give us a call on +11111111
+        </div>
+      </div>
+    </div>
+
+    <footer>
+        
+      <p> Want more from our blog?</p>
+      <p> SUBSCRIBE TO OUR NEWSLETTER! </p>
+      <form id = "form" novalidate>
+          <div class = "col-3">
+      <label for = "email" class = "form-label"> Email </label>
+       <input type = "email" id = "email" placeholder = "someone@example.com" name = "email" class = "form-control" required> <br>
+       <div class = "error"> </div>
+       </div>
+       <div class = "col-3">
+          <label for = "password" class = "form-label"> Password </label>
+         <input type = "password" id = "password" name = "password" required class = "form-control">
+         <div class = "error"> </div>
+         </div>
+         <button id = "submit" type = "submit" class = "btn btn-secondary">Subscribe</button>
+      </form>
+      <form> 
+        <label for = "comments" class = "form-label"> Comment: </label>
+        <input id = "comments" class = "form-control">
+          <button type = "submit" id = "submit" class = "btn btn-secondary"> Submit </button>
+      </form>
+      <script>
+        const form = document.querySelector("form")
+
+        form.addEventListener("submit", e => {
+          if(!form.checkValidity()){
+            e.preventDefault()
+          }
+
+          form.classList.add("was-validated")
+        })
+      </script>
+      <p>© 2022 DISCOVER-R-US</p>
+    </footer>
+   
+</body>
+</html>
