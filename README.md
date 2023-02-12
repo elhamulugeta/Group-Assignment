@@ -10,3 +10,7 @@ YOSEF GEBREYESUS UGR/6364/13
 
 TOPIC PICKED:
 DISCOVER-R-US
+
+The two features that we created the REST APIs for are 
+signing up and adding, deleting, getting, and editing the table of menus 
+for the restaurant on the restaurants.html web page.
